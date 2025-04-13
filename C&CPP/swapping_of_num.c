@@ -1,14 +1,14 @@
 #include <stdio.h>
 int main(){
     int n,s,r;
-    printf("Enter num1");
+    printf("Enter the first number:");
     scanf("%d",&n);
-    printf("Enter num2");
+    printf("Enter the second number:");
     sacnf("%d",&s);
     r=n;
     n=s;
     s=r;
-    printf("%d %d",a,b);
+    printf("%d %d",n,s);
     return 0;
 }
 
