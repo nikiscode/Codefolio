@@ -1,1 +1,2 @@
+/*patterns in c language */
 
