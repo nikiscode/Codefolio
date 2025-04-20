@@ -15,17 +15,17 @@ int main(){
 #include<stdio.h>
 typedef int integer;
 int main() {
-    integer s;
-    integer d;
-    integer x;
+    integer a;
+    integer b;
+    integer c;
     printf("enter the num1:");
-    scanf("%d",&s);
+    scanf("%d",&a);
     printf("enter the num2:");
-    scanf("%d",&d);
-        x=s;
-        s=d;
-        d=x;
-        printf("%d %d",s,d);
+    scanf("%d",&b);
+        c=a;
+        a=b;
+        b=c;
+        printf("%d %d",a,b);
         return 0;
 
 }
