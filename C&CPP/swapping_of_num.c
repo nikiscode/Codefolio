@@ -1,14 +1,14 @@
 #include <stdio.h>
 int main(){
-    int n,s,r;
-    printf("Enter the first number:");
-    scanf("%d",&n);
-    printf("Enter the second number:");
-    sacnf("%d",&s);
-    r=n;
-    n=s;
-    s=r;
-    printf("%d %d",n,s);
+    int a,b,c;
+    printf("Enter the first num:");
+    scanf("%d",&a);
+    printf("Enter the second num:");
+    sacnf("%d",&b);
+    r=a;
+    n=b;
+    s=c;
+    printf("%d %d",a,b);
     return 0;
 }
 /*swapping of numbers in type */
