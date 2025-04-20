@@ -3,7 +3,7 @@
 int main() {
     FILE *fptr
     fptr=fopen("C:\\Users\\91789\\Documents\\niki.txt" ,"w");
-    fprintf(fptr,"This is C programming class");
+    fprintf(fptr,"This is my c file creation");
     fclose(fptr);
 return 0;
 }
