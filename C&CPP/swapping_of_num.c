@@ -11,6 +11,8 @@ int main(){
     printf("%d %d",a,b);
     return 0;
 }
+
+
 /*swapping of numbers with typedef */
 #include<stdio.h>
 typedef int integer;
@@ -22,11 +24,11 @@ int main() {
     scanf("%d",&s);
     printf("enter the num2:");
     scanf("%d",&n);
-        r=s;
-        s=n;
-        n=r;
-        printf("%d %d",s,n);
-        return 0;
+    r=s;
+    s=n;
+    n=r;
+    printf("%d %d",s,n);
+    return 0;
 
 }
 
