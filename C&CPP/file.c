@@ -1,10 +1,10 @@
 /*to create and write something in file*/
 #include <stdio.h>
 int main() {
-    FILE *fptr
-    fptr=fopen("C:\\Users\\91789\\Documents\\niki.txt" ,"w");
-    fprintf(fptr,"This is my first file creation in C ");
-    fclose(fptr);
+FILE *fptr
+fptr=fopen("C:\\Users\\91789\\Documents\\niki.txt" ,"w");
+fprintf(fptr,"This is my first file creation in C ");
+fclose(fptr);
 return 0;
 }
 /*to read the file*/
