@@ -1,15 +1,15 @@
 #include <stdio.h>
 int main(){
-    int a,b,c;
-    printf("Enter the first num:");
-    scanf("%d",&a);
-    printf("Enter the second num:");
-    sacnf("%d",&b);
-    r=a;
-    n=b;
-    s=c;
-    printf("%d %d",a,b);
-    return 0;
+int a,b,c;
+printf("Enter the first num:");
+scanf("%d",&a);
+printf("Enter the second num:");
+sacnf("%d",&b);
+r=a;
+n=b;
+s=c;
+printf("%d %d",a,b);
+return 0;
 }
 
 
