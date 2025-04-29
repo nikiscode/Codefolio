@@ -44,6 +44,7 @@ printf("enter first number:");
 scanf("%d",&y);
 
 printf("before swapping:x=%d, y=%d\n",x,y);
+    
 
 printf("after swapping:x=%d, y=%d\n",x,y);
 
