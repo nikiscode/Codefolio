@@ -1,10 +1,12 @@
 /*book title, author , price */
 #include <stdio.h>
+
 struct book{
 char title[50];
 char author[50];
 float price;
 };
+
 int main(){
      struct book b1;
      printf("enter the title:\n");
@@ -22,11 +24,13 @@ return 0;
 
 /*dmart itms */
 #include <stdio.h>
+
 struct item{
 char names[5];
 int quantity[5];
 float cost;
 };
+
 int main(){
      struct items i1;
      printf("enter the name:\n");
@@ -38,5 +42,6 @@ int main(){
     printf("name: %s\n",i1.name);
     printf(" quantity: %s\n",i1. quantity);
     printf("cost: %f\n",i1.cost);
-return 0;
+
+     return 0;
 }
