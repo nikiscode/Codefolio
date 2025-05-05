@@ -1,14 +1,14 @@
 #include <stdio.h>
 int main(){
-int a,b,c;
+int n,s,r;
 printf("Enter the first num:");
-scanf("%d",&a);
+scanf("%d",&n);
 printf("Enter the second num:");
-sacnf("%d",&b);
-r=a;
-n=b;
-s=c;
-printf("%d %d",a,b);
+sacnf("%d",&s);
+r=n;
+n=s;
+s=r;
+printf("%d %d",n,s);
 return 0;
 }
 /*swapping of numbers with typedef */
@@ -39,18 +39,11 @@ int main(){
 int x,y;
 printf("enter first number:");
 scanf("%d",&x);
-
 printf("enter first number:");
 scanf("%d",&y);
-
 printf("before swapping:x=%d, y=%d\n",x,y);
-    
-
 printf("after swapping:x=%d, y=%d\n",x,y);
-
 return 0;
-
-
 }
 
 
