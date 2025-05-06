@@ -7,6 +7,7 @@ fprintf(fptr,"This is my first file creation in C ");
 fclose(fptr);
 return 0;
 }
+
 /*to read the file*/
 #include <stdio.h>
 int main() {
@@ -21,6 +22,6 @@ int main() {
         printf("%s",mystring);
     }
     fclose(fptr);
-return 0;
+     return 0;
 }
 
