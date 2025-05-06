@@ -11,6 +11,7 @@ s=r;
 printf("%d %d",n,s);
 return 0;
 }
+
 /*swapping of numbers with typedef */
 #include<stdio.h>
 typedef int integer;
@@ -28,6 +29,8 @@ int main() {
     printf("%d %d",s,n);
     return 0;
 }
+
+
 /*swaping elements using call by reference*/
 #include <stdio.h>
 void swap(int *a,int *b){
