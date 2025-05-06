@@ -1,21 +1,21 @@
 /*book title, author , price */
 #include <stdio.h>
 struct book{
-char title[50];
-char author[50];
+char title[100];
+char author[100];
 float price;
 };
 int main(){
-     struct book bk1;
+     struct book b1;
      printf("enter the title:\n");
-    scanf("%s",bk1.title);
+    scanf("%s",b1.title);
     printf("enter the author:\n");
-    scanf("%s",bk1.author);
+    scanf("%s",b1.author);
      printf("enter the price:\n");
-    scanf("%f",bk1.price);
-    printf("title: %s\n",bk1.title);
-    printf("author: %s\n",bk1.author);
-    printf("price: %f\n",bk1.price);
+    scanf("%f",b1.price);
+    printf("title: %s\n",b1.title);
+    printf("author: %s\n",b1.author);
+    printf("price: %f\n",b1.price);
 return 0;
 }
 
