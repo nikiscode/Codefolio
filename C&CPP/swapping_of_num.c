@@ -1,4 +1,4 @@
-#include <stdio.h>
+hu#include <stdio.h>
 int main(){
 int n,s,r;
 printf("Enter the first num:");
@@ -12,7 +12,10 @@ printf("%d %d",n,s);
 return 0;
 }
 
-/*swapping of numbers with typedef */
+
+
+
+//swapping of numbers with typedef //
 #include<stdio.h>
 typedef int integer;
 int main() {
@@ -31,7 +34,8 @@ int main() {
 }
 
 
-/*swaping elements using call by reference*/
+
+//swaping elements using call by reference//
 #include <stdio.h>
 void swap(int *a,int *b){
 int temp=*a;
