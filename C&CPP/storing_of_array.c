@@ -1,3 +1,4 @@
+
 #include <stdio.h>
 int main() {
    int n, temp;
@@ -18,7 +19,6 @@ int main() {
             }
         }
     }
-    
     printf("Sorted array in ascending order:\n");
     for(int i = 0; i < n; i++) {
         printf("%d ", *(ptr + i));
