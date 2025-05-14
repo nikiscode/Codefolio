@@ -1,1 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>JavaScript Interaction Examples</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 20px;
+    }
+ section {
+      margin-bottom: 30px;
+    }
+
+    #styledDiv {
+      width: 200px;
+      height: 150px;
+    }
+  </style>
+</head>
+<body>
+ <section>
+    <p id="welcomeText">Welcome</p>
+    <button onclick="updateText()">Update</button>
+  </section>
+<section>
+    <div id="styledDiv">This border has included some of the context.</div>
+  </section>
+ <section>
+    <h1 id="mainHeading">This is a heading</h1>
+    <button onclick="highlightText()">Highlight</button>
+  </section>
+<section>
+    <p id="infoParagraph">This is some important information.</p>
+    <button onclick="toggleVisibility()">Show/Hide Info</button>
+  </section>
+  <script>
+    function updateText() {
+      document.getElementById("welcomeText").textContent = "Hello, JavaScript!";
+    }
+        window.onload = function() {
+      const div = document.getElementById("styledDiv");
+      div.style.backgroundColor = "pink";
+      div.style.border = "2px dashed #333";
+    };
+    function highlightText() {
+      const heading = document.getElementById("mainHeading");
+      heading.style.color = "black";
+      heading.style.fontWeight = "bold";
+    }
+    function toggleVisibility() {
+      const paragraph = document.getElementById("infoParagraph");
+      if (paragraph.style.display === "none") {
+        paragraph.style.display = "block";
+      } else {
+        paragraph.style.display = "none";
+      }
+    }
+  </script>
+</body>
+</html>
 
