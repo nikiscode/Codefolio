@@ -19,12 +19,7 @@ int main(){
 return 0;
 }
 
-
-
-
-
-
-/*dmart itms */
+/*dmart items */
 #include <stdio.h>
 struct item{
 char names[5];
