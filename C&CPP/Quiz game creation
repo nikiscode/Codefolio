@@ -1,1 +1,58 @@
 
+#include <stdio.h>
+
+int main() {
+    int score = 0;
+    char answer;
+
+    printf("Welcome to the C Quiz Game!\n");
+    printf("----------------------------\n");
+
+    // Question 1
+    printf("1. What is the correct file extension for a C program?\n");
+    printf("a) .cp\nb) .c\nc) .cpp\nd) .cs\n");
+    printf("Your answer: ");
+    scanf(" %c", &answer);
+    if(answer == 'b' || answer == 'B') {
+        printf("Correct!\n");
+        score++;
+    } else {
+        printf("Wrong! Correct answer: b) .c\n");
+    }
+
+    // Question 2
+    printf("\n2. Which function is used to print text in C?\n");
+    printf("a) scanf()\nb) input()\nc) print()\nd) printf()\n");
+    printf("Your answer: ");
+    scanf(" %c", &answer);
+    if(answer == 'd' || answer == 'D') {
+        printf("Correct!\n");
+        score++;
+    } else {
+        printf("Wrong! Correct answer: d) printf()\n");
+    }
+
+    // Question 3
+    printf("\n3. Which of the following is a loop in C?\n");
+    printf("a) for\nb) repeat\nc) loop\nd) iterate\n");
+    printf("Your answer: ");
+    scanf(" %c", &answer);
+    if(answer == 'a' || answer == 'A') {
+        printf("Correct!\n");
+        score++;
+    } else {
+        printf("Wrong! Correct answer: a) for\n");
+    }
+
+    // Final Score
+    printf("\nYou scored %d out of 3!\n", score);
+
+    if(score == 3)
+        printf("Excellent! You know your C well.\n");
+    else if(score == 2)
+        printf("Good job! Keep practicing.\n");
+    else
+        printf("Better luck next time.\n");
+
+    return 0;
+}
