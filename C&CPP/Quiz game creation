@@ -8,7 +8,7 @@ int main() {
     printf("Welcome to the C Quiz Game!\n");
     printf("----------------------------\n");
 
-    // Question 1
+    //1st question 
     printf("1. What is the correct file extension for a C program?\n");
     printf("a) .cp\nb) .c\nc) .cpp\nd) .cs\n");
     printf("Your answer: ");
@@ -20,7 +20,7 @@ int main() {
         printf("Wrong! Correct answer: b) .c\n");
     }
 
-    // Question 2
+    // 2nd question 
     printf("\n2. Which function is used to print text in C?\n");
     printf("a) scanf()\nb) input()\nc) print()\nd) printf()\n");
     printf("Your answer: ");
@@ -32,7 +32,7 @@ int main() {
         printf("Wrong! Correct answer: d) printf()\n");
     }
 
-    // Question 3
+    // 3rd question 
     printf("\n3. Which of the following is a loop in C?\n");
     printf("a) for\nb) repeat\nc) loop\nd) iterate\n");
     printf("Your answer: ");
@@ -44,7 +44,7 @@ int main() {
         printf("Wrong! Correct answer: a) for\n");
     }
 
-    // Final Score
+    // Final result 
     printf("\nYou scored %d out of 3!\n", score);
 
     if(score == 3)
