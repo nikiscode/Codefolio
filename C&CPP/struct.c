@@ -18,7 +18,6 @@ int main(){
     printf("price: %f\n",b1.price);
 return 0;
 }
-
 /*dmart items */
 #include <stdio.h>
 struct item{
