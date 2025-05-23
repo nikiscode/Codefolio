@@ -1,7 +1,5 @@
 #include <stdio.h>
-
 float balance = 0.0;
-
 void deposit(float amount) {
     if (amount > 0) {
         balance += amount;
@@ -10,7 +8,6 @@ void deposit(float amount) {
         printf("Invalid deposit amount.\n");
     }
 }
-
 void withdraw(float amount) {
     if (amount > 0 && amount <= balance) {
         balance -= amount;
@@ -19,16 +16,13 @@ void withdraw(float amount) {
         printf("Invalid or insufficient balance for withdrawal.\n");
     }
 }
-
 void checkBalance() {
     printf("Current balance: %.2f\n", balance);
 }
-
 int main() {
     int choice;
     float amount;
-
-    while (1) {
+while (1) {
         printf("\n--- Bank Menu ---\n");
         printf("1. Deposit\n");
         printf("2. Withdraw\n");
@@ -36,8 +30,7 @@ int main() {
         printf("4. Exit\n");
         printf("Enter your choice: ");
         scanf("%d", &choice);
-
-        switch(choice) {
+ switch(choice) {
             case 1:
                 printf("Enter amount to deposit: ");
                 scanf("%f", &amount);
