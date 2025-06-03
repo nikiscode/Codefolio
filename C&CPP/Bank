@@ -1,3 +1,4 @@
+//Bank deposition
 #include <stdio.h>
 float balance = 0.0;
 void deposit(float amount) {
