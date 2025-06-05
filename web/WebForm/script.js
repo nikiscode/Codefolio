@@ -1,3 +1,4 @@
+//javascript 
 document.getElementById('theme-toggle').addEventListener('click', () => {
     const root = document.documentElement;
     const currentTheme = root.getAttribute('data-theme');
