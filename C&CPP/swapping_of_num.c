@@ -12,8 +12,6 @@ s=r;
 printf("%d %d",n,s);
 return 0;
 }
-
-
 //swapping of numbers with typedef //
 #include<stdio.h>
 typedef int integer;
