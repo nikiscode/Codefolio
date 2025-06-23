@@ -1,4 +1,4 @@
-//javascript 
+//javascript code
 <!DOCTYPE html>
 <html>
 <head>
