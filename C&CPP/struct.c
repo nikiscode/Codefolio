@@ -1,4 +1,3 @@
-
 //book title, author , price 
 #include <stdio.h>
 struct book{
