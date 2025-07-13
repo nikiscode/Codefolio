@@ -1,5 +1,4 @@
 //number guessing
-
 <!DOCTYPE html>
 <html>
 <head>
