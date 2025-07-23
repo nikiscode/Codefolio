@@ -16,10 +16,6 @@ int main() {
     } else {
         printf("Wrong! Correct answer: b) .c\n");
     }
-     
-
-
-
 // 2nd question 
     printf("\n2. Which function is used to print text in C?\n");
     printf("a) scanf()\nb) input()\nc) print()\nd) printf()\n");
