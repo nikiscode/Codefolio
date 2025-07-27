@@ -1,4 +1,4 @@
-  //pointers in c//
+//pointers in c//
 #include <stdio.h>
 int main() {
     int arr[8];
