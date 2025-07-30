@@ -1,3 +1,5 @@
+
+
 //Diamond
 #include <stdio.h>
 
