@@ -1,4 +1,3 @@
-
 //javascripts code
 document.getElementById('theme-toggle').addEventListener('click', () => {
     const root = document.documentElement;
@@ -28,3 +27,4 @@ document.getElementById('theme-toggle').addEventListener('click', () => {
     this.reset();
   });
   
+
