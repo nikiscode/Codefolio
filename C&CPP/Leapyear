@@ -1,4 +1,4 @@
-  //leapyear calculation 
+//leapyear calculation 
 #include <stdio.h>
 int main() {
     int year;
