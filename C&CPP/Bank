@@ -1,3 +1,4 @@
+
 //Bank deposition, withdrawal,and balance check 
 #include <stdio.h>
 float balance = 0.0;
