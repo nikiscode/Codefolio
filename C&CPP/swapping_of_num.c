@@ -1,4 +1,3 @@
-
 //swap a number
 #include <stdio.h>
 int main(){
