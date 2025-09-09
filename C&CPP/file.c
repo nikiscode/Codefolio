@@ -1,4 +1,5 @@
 
+
 //to create and write something in file
 #include <stdio.h>
 int main() {
