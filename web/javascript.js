@@ -1,4 +1,4 @@
-  //first javascript program
+   //first javascript program
 <!DOCTYPE html>
 <html>
 <body>
