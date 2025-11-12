@@ -1,4 +1,4 @@
- 
+  
 //Diamond
 #include <stdio.h>
 int main() {
