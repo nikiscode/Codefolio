@@ -1,4 +1,4 @@
-  //book title, author , price 
+//book title, author , price 
 #include <stdio.h>
 struct book{
 char title[100];
