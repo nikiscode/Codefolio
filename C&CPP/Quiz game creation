@@ -1,4 +1,4 @@
-//quiz game creation 
+//quiz game creation:quiz based game
 #include <stdio.h>
 int main() {
     int score = 0;
