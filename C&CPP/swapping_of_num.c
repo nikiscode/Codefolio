@@ -1,4 +1,4 @@
-//swap a number
+//swaping of numbers
 #include <stdio.h>
 int main(){
 int n,s,r;
