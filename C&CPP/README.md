@@ -1,2 +1,2 @@
 ## C & C++
-#includes aome of rhe c and c++ codes##
+#includes some of the c and c++ codes
