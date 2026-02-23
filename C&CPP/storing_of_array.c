@@ -1,4 +1,4 @@
-//string of an array
+//string_of_an_array
 #include <stdio.h>
 int main() {
    int n, temp;
