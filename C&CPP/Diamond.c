@@ -1,4 +1,4 @@
-//Diamond problem 
+//Diamond_problem 
 #include <stdio.h>
 int main() {
     int i, j, space, rows;
