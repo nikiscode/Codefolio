@@ -1,6 +1,6 @@
-//union function 
+//union_function 
 #include <stdio.h>
-// Define a union
+// Define_a_union
 union Data {
     int i;
     float f;
