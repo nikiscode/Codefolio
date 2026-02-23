@@ -1,4 +1,4 @@
-//to create a file and to write something in it
+//to_create_a_file_and_to_write_something in it
 #include <stdio.h>
 int main() {
 FILE *fptr
