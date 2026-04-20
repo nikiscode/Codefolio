@@ -1,3 +1,5 @@
+
+
 //string_of_an_array
 #include <stdio.h>
 int main() {
