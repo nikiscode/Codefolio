@@ -1,4 +1,3 @@
-
 //Diamond_problem 
 #include <stdio.h>
 int main() {
