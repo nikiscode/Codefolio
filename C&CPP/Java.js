@@ -1,4 +1,4 @@
-  //javascript_codes
+//javascript_codes
 <!DOCTYPE html>
 <html lang="en">
 <head>
