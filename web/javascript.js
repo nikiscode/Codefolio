@@ -2,7 +2,11 @@
 
 
 //first javascript program
-<!DOCTYPE html>
+<!DOCTYPE
+    
+
+
+html>
 <html>
 <body>
 <h1>JavaScript Function Examples</h1>
