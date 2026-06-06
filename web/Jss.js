@@ -1,5 +1,3 @@
-
-
 //java
 <!DOCTYPE html>
 <html>
