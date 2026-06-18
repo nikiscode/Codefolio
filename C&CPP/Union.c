@@ -1,6 +1,8 @@
 //union_function 
+
 #include <stdio.h>
 // Define_a_union
+
 union Data {
     int i;
     float f;
