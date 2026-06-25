@@ -1,7 +1,4 @@
 
-   
-
-
 "WEB-TECHNOLOGY"
 //html
 //css
